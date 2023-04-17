@@ -3,18 +3,133 @@
   /* we don't know how to make mobile versions of websites yet, */
   /* so here we've set a minimum page width */
   max-width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
   /* here we've set a maximum page width */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .header {
+  width: 100%;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* parameters for the header section */
+  position: relative;
+  background-color: #f2f2f2;
+  display: flex;
+  
+    /* parameters for the header section */
 }
+
+.logo_place-header{
+  position: absolute;
+  height: 31px;
+  width: 154px;
+  z-index: 1;
+  margin-top: 30px;
+  margin-left: 64px;
+}
+
+.container{
+  /* display: flex;
+  flex-wrap: wrap;
+  align-content: space-between; */
+}
+
+.header_title{
+  width: 730px;
+    margin-left: 64px;
+    font-weight: bold;
+    font-size: 102px;
+    height: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    /* align-content: center; */
+    /* justify-content: center; */
+    top: 20%;
+  
+}
+.header_subtitle{
+  margin-left: 64px;
+  position: absolute;
+  bottom: 40px;
+  width: 388px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+.header_link {
+  margin-left: 64px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.header_main-illustrator{
+  position: absolute;
+  width: 756px;
+  height: 608px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.header_square{
+  position: absolute;
+  width: 568px;
+  height: 568px;
+  background-color:#2F80ED;
+  top: 64px;
+  right: 0px;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+.description{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.two-columns{
+  width: 175px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief{
+
+}
+
+.two-columns__main-text{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-width: 784px;
+  justify-content: space-around;
+}
+
+.two-columns__paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-top: 0px;
+  }
+
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
