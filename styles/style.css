@@ -42,16 +42,16 @@
 
 .header_title{
   width: 730px;
-    margin-left: 64px;
-    font-weight: bold;
-    font-size: 102px;
-    height: 96px;
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    /* align-content: center; */
-    /* justify-content: center; */
-    top: 20%;
+  margin-left: 64px;
+  font-weight: bold;
+  font-size: 102px;
+  height: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  /* align-content: center; */
+  /* justify-content: center; */
+  top: 20%;
   
 }
 .header_subtitle{
@@ -92,8 +92,7 @@
 /* parameter description */
 
 .content {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  
 }
 
 .description{
@@ -102,6 +101,8 @@
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .two-columns{
@@ -147,7 +148,7 @@
   margin-bottom: 100px;
 }
 
-.section-title{
+.digits-title{
   margin: auto;
   width: 60%;
   line-height: 69px;
@@ -157,7 +158,7 @@
 
 }
 
-.section-subtitle{
+.digits-subtitle{
   margin: auto;
   line-height: 34px;
   font-size: 24px;
@@ -192,6 +193,53 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+/* parameter feyman */
+
+.feynman{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  row-gap: 70px;
+}
+
+.feynman__title{
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  width: 775px;
+  text-align: center;
+  margin: 0px auto 0px auto;
+  z-index: 1;
+}
+
+.feynman__subtitle{
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0px auto 240px auto;
+  z-index: 1;
+}
+
+.feynman__link{
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  margin-top: 300px;
+  right: 48px;
+}
+
+.feynman__background-image{
+  position: absolute;
+  width: 867px;
+  height: 637px;
+}
+
+/* parameter kaufman */
+
+
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
