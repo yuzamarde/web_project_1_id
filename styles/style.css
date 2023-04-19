@@ -146,6 +146,7 @@
   flex-direction: column;
   margin-top: 100px;
   margin-bottom: 100px;
+  
 }
 
 .digits-title{
@@ -176,10 +177,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 60px;
+  list-style-type:none;
+  padding: 0px;
 }
 
 .table__cell{
   width: 250px;
+  list-style-type:none;
 }
 
 .table__heading{
@@ -238,6 +242,59 @@
 }
 
 /* parameter kaufman */
+
+.kaufman{
+  /* padding-top: 90px;
+  padding-bottom: 90px; */
+  background-color: #1F1F1F;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.theme_dark{
+  color: #F2F2F2;
+}
+
+.kaufman-title{
+  margin-top: 90px;
+  width: 60%;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.kaufman-subtitle{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.kaufman__cell{
+  width: 200px;
+  row-gap: 80px;
+  z-index: 1;
+}
+
+.kaufman_triangle{
+  position: absolute;
+  width: 660px;
+  height: 635px;
+  right: -124px;
+  
+}
+
+
 
 
 

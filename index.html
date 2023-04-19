@@ -11,6 +11,8 @@
 
 <body style="margin: 0px">
     <div class="page">
+        
+        <!-- Header and navigation -->
         <header class="header">
             <img class="logo_place-header" src="./images/logo_place_header.png">
             <div class="container">
@@ -22,6 +24,8 @@
                 <div class="header_square"></div>
             </div>
         </header>
+
+        <!-- Content page -->
         <main class="content">
             <section class="description">
                 <div class="two-columns">Masalah utama pendidikan</div>
@@ -36,45 +40,48 @@
                     </p>
                 </div>
             </section> 
+
+            <!-- Digits page -->
             <section class="digits">
                 <h2 class="digits-title">Fakta dan angka</h2>
                 <h3 class="digits-subtitle">Tentang belajar dan otak</h3>
-                <div class="table">
-                    <div class="table__cell">
+                <ul class="digits__table table">
+                    <li class="digits__cell table__cell">
                         <h4 class="table__heading">86 miliar</h4>
                         <p class="table__text">Jumlah neuron di otak manusia</p>
-                    </div>
-                    <div class="table__cell">
+                    </li>
+                    <li class="digits__cell table__cell">
                         <h4 class="table__heading">73%</h4>
                         <p class="table__text">Persentase orang dewasa di AS yang menganggap diri mereka sebagai pembelajar seumur hidup Pew Research Center</p>
-                    </div>
-                    <div class="table__cell">
+                    </li>
+                    <li class="digits__cell table__cell">
                         <h4 class="table__heading">1.000 terabita</h4>
                         <p class="table__text">Kapasitas penyimpanan informasi manusia</p>
-                    </div>
-                    <div class="table__cell">
+                    </li>
+                    <li class="digits__cell table__cell">
                         <h4 class="table__heading">500 triliun</h4>
                         <p class="table__text">Jumlah sinapsis saraf yang bertanggung jawab untuk belajar pada manusia dewasa rata-rata</p>
-                    </div>
-                    <div class="table__cell">
+                    </li>
+                    <li class="digits__cell table__cell">
                         <h4 class="table__heading">420 juta</h4>
                         <p class="table__text">Jumlah orang dewasa di bawah 25 tahun dengan pendidikan yang kurang memadai untuk mencari pekerjaan Bank Dunia, 2017</p>
-                    </div>
-                    <div class="table__cell">
+                    </li>
+                    <li class="digits__cell table__cell">
                         <h4 class="table__heading">26 tahun</h4>
                         <p class="table__text">Usia Albert Einstein saat ia menerbitkan makalah inovatifnya mengenai relativitas khusus</p>
-                    </div>
-                    <div class="table__cell">
+                    </li>
+                    <li class="digits__cell table__cell">
                         <h4 class="table__heading">1885</h4>
                         <p class="table__text">Pengembangan teori forgetting curve</p>
-                    </div>
-                    <div class="table__cell">
+                    </li>
+                    <li class="digits__cell table__cell">
                         <h4 class="table__heading">1897</h4>
                         <p class="table__text">Publikasi penelitian Ivan Pavlov tentang pengkondisian klasik</p>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </section>
 
+            <!-- Feyman page -->
             <section class="feynman">
                 <h2 class="feynman__title">Teknik Feynman</h2>
                 <h3 class="feynman__subtitle">Balajar tanpa lupa</h3>
@@ -84,44 +91,55 @@
                 berasal dari metode belajarnya ketika dia masih menjadi
                 mahasiswa di Princeton." src="./images/feynman.png">
             </section>
-            <section class="kaufman">
-                <h2 class="kaufman-title ">Sepuluh prinsip mendapatkan keterampilan dengan cepat</h2>
-                <h3 class="kaufman-subtitle">oleh Josh Kaufman</h3>
-                <div class="table">
-                    <div class="table__cell">
-                        <h4 class="table__heading">86 miliar</h4>
-                        <p class="table__text">Jumlah neuron di otak manusia</p>
-                    </div>
-                    <div class="table__cell">
-                        <h4 class="table__heading">73%</h4>
-                        <p class="table__text">Persentase orang dewasa di AS yang menganggap diri mereka sebagai pembelajar seumur hidup Pew Research Center</p>
-                    </div>
-                    <div class="table__cell">
-                        <h4 class="table__heading">1.000 terabita</h4>
-                        <p class="table__text">Kapasitas penyimpanan informasi manusia</p>
-                    </div>
-                    <div class="table__cell">
-                        <h4 class="table__heading">500 triliun</h4>
-                        <p class="table__text">Jumlah sinapsis saraf yang bertanggung jawab untuk belajar pada manusia dewasa rata-rata</p>
-                    </div>
-                    <div class="table__cell">
-                        <h4 class="table__heading">420 juta</h4>
-                        <p class="table__text">Jumlah orang dewasa di bawah 25 tahun dengan pendidikan yang kurang memadai untuk mencari pekerjaan Bank Dunia, 2017</p>
-                    </div>
-                    <div class="table__cell">
-                        <h4 class="table__heading">26 tahun</h4>
-                        <p class="table__text">Usia Albert Einstein saat ia menerbitkan makalah inovatifnya mengenai relativitas khusus</p>
-                    </div>
-                    <div class="table__cell">
-                        <h4 class="table__heading">1885</h4>
-                        <p class="table__text">Pengembangan teori forgetting curve</p>
-                    </div>
-                    <div class="table__cell">
-                        <h4 class="table__heading">1897</h4>
-                        <p class="table__text">Publikasi penelitian Ivan Pavlov tentang pengkondisian klasik</p>
-                    </div>
-                </div>
+            <section class="kaufman theme_dark">
+                <h2 class="kaufman-title theme_dark">Sepuluh prinsip mendapatkan keterampilan dengan cepat</h2>
+                <h3 class="kaufman-subtitle theme_dark">oleh Josh Kaufman</h3>
+                <ul class="kaufman__table table theme_dark">
+                    <li class="kaufman__cell table__cell theme_dark">
+                        <h4 class="table__heading theme_dark">1</h4>
+                        <p class="table__text theme_dark">Pilih suatu proyek yang menyenangkan</p>
+                    </li>
+                    <li class="kaufman__cell theme_dark">
+                        <h4 class="kaufman__cell table__cell theme_dark">2</h4>
+                        <p class="table__text theme_dark">Konsentrasikan energi Anda pada satu keterampilan di satu waktu</p>
+                    </li>
+                    <li class="kaufman__cell theme_dark">
+                        <h4 class="kaufman__cell table__cell theme_dark">3</h4>
+                        <p class="table__text theme_dark">Definisikan target tingkat kemampuan yang ingin Anda raih</p>
+                    </li>
+                    <li class="kaufman__cell theme_dark">
+                        <h4 class="kaufman__cell table__cell theme_dark">4</h4>
+                        <p class="table__text theme_dark">Pecah kemampuan yang ingin Anda kuasai menjadi beberapa bagian</p>
+                    </li>
+                    <li class="kaufman__cell theme_dark">
+                        <h4 class="kaufman__cell table__cell theme_dark">5</h4>
+                        <p class="table__text theme_dark">Dapatkan alat pendukung yang penting</p>
+                    </li>
+                    <li class="kaufman__cell theme_dark">
+                        <h4 class="kaufman__cell table__cell theme_dark">6</h4>
+                        <p class="table__text theme_dark">Hilangkan penghalang untuk berlatih</p>
+                    </li>
+                    <li class="kaufman__cell theme_dark">
+                        <h4 class="kaufman__cell table__cell theme_dark">7</h4>
+                        <p class="table__text theme_dark">Luangkan waktu untuk latihan</p>
+                    </li>
+                    <li class="kaufman__cell theme_dark">
+                        <h4 class="kaufman__cell table__cell theme_dark">8</h4>
+                        <p class="table__text theme_dark">Ciptakan siklus umpan balik yang cepat</p>
+                    </li>
+                    <li class="kaufman__cell theme_dark">
+                        <h4 class="kaufman__cell table__cell theme_dark">9</h4>
+                        <p class="table__text theme_dark">Berlatihlah dengan keras dalam rentang waktu yang singkat</p>
+                    </li>
+                    <li class="kaufman__cell theme_dark">
+                        <h4 class="kaufman__cell table__cell theme_dark">10</h4>
+                        <p class="table__text theme_dark">Tekankan fokus pada kecepatan dan kuantitas</p>
+                    </li>
+                </ul>
+                <img class="kaufman_triangle" alt="Segitiga biru besar yang diklaim sebagai milik Josh Kaufman" src="./images/kaufman-triangle.svg">
             </section>
+
+            <!--  Footer & Contacts -->
         </main>
         <footer class="footer"></footer>
     </div>
