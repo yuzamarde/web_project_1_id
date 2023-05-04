@@ -12,6 +12,25 @@
 }
 
 /* header parameter */
+@keyframes move_bg {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100px 0;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 .header {
   width: 100%;
@@ -23,6 +42,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  overflow: hidden;
   
     /* parameters for the header section */
 }
@@ -79,12 +99,15 @@
   background-color:#2F80ED;
   top: 64px;
   right: 0px;
+  transform: rotate(45deg);
+}
+
+.rotation{
+  animation: rotation 20s linear infinite;
 }
 
 
-/* parameter description */
-
-
+/* parameter description and oakley */
 
 .two-columns{
   width: 80%;
@@ -128,14 +151,25 @@
   font-weight: bold;
 }
 
-/* parameter digits */
+/* techniques section */
 
-.digits{
+.techniques{
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  
+  flex-direction: column;  
+}
+
+.section-title{
+  margin-top: 90px;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 1;
 }
 
 .section-subtitle{
@@ -145,37 +179,62 @@
   font-weight: normal;
   width: 60%;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
-.table{
-  width: 1100px;
+.cards{
+  width: 920px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: start;
   row-gap: 60px;
+  column-gap: 100px;
   list-style-type:none;
   padding: 0px;
 }
 
-.table__cell{
-  width: 250px;
+.cards__image{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.cards__item{
+  width: 240px;
   list-style-type:none;
   z-index: 1;
 }
 
-.table__heading{
+.cards__title{
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  text-align: center;
 }
 
-.table__text{
-  line-height: 1.2;
+.cards__description{
+  line-height: 23px;
   font-size: 18px;
   font-weight: normal;
+  text-align: center;
+}
+
+/* video parameter */
+.video{
+  margin-left: auto;
+  margin-right: auto;
+}
+.video__iframes{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: center;
 }
 
 /* parameter feyman */
@@ -228,7 +287,37 @@
   left: 0px;
 }
 
-/* parameter section */
+/* Digits and kaufman parameter */
+
+
+.table{
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 60px;
+  list-style-type:none;
+  padding: 0px;
+}
+
+.table__cell{
+  width: 250px;
+  list-style-type:none;
+  z-index: 1;
+}
+
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
 
 .kaufman{
   background-color: #1F1F1F;
@@ -243,18 +332,6 @@
   margin-bottom: 60px;
 }
 
-.section-title{
-  margin-top: 90px;
-  width: 60%;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  z-index: 1;
-}
 
 .section__table{
   margin-top: 0px;
@@ -278,7 +355,12 @@
   right: -124px;
 }
 
-/* parameter footer */
+
+/* khan parameter */
+
+/* resources parameter */
+
+/* footer parameter */
 
 .footer{
   background-color: #1F1F1F;
