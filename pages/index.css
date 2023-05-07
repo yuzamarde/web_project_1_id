@@ -77,6 +77,7 @@
 /* kaufman */
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+@import url(../blocks/kaufman/__cell/kaufman__cell.css);
 
 /* resources */
 @import url(../blocks/resources/resources.css);
