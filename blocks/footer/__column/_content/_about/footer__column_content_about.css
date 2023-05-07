@@ -1,0 +1,12 @@
+.footer__column_content_about{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    list-style-type:none;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }

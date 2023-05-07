@@ -1,0 +1,12 @@
+.footer__columns{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: -webkit-fill-available;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+  }
